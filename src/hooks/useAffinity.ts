@@ -7,11 +7,13 @@ const STORAGE_KEY = '@petpet:affinity';
 const UNLOCKED_KEY = '@petpet:unlocked';
 
 const DEFAULT_AFFINITY: Record<AnimalId, number> = {
-  dog: 0, cat: 0, rabbit: 0, hamster: 0, bird: 0,
+  dog: 0, cat: 0, rabbit: 0, hamster: 0,
+  parrot: 0, turtle: 0, snake: 0, tiger: 0, eagle: 0,
 };
 
 const DEFAULT_UNLOCKED: Record<AnimalId, boolean> = {
-  dog: true, cat: false, rabbit: false, hamster: false, bird: false,
+  dog: true, cat: false, rabbit: false, hamster: false,
+  parrot: false, turtle: false, snake: false, tiger: false, eagle: false,
 };
 
 export interface AffinityHook {

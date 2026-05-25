@@ -1,2 +1,0 @@
-# petpet
-Animal petting app
